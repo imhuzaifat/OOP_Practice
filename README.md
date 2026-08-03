@@ -1,0 +1,31 @@
+# C++ Practice & Coursework
+
+A collection of C++ programming problems and implementations focused on core data structures, memory management, and algorithms.
+
+---
+
+## Problem Sets
+
+### Topic 1: Pointers & Reference Variables
+* **File:** `topic1_pointers.cpp`
+* **Description:** Implementation of custom array manipulation returning a reference to modify the maximum element directly in dynamic memory.
+
+---
+
+### Topic 2: Dynamic Memory Management
+* **File:** `topic2_dynamic_memory.cpp`
+* **Requirements:**
+  1. Write helper functions to allocate (`createMatrix`) and deallocate (`freeMatrix`) a 2D dynamic array.
+  2. Implement `transposeMatrix(int** matrix, int rows, int cols)` to allocate and populate a transposed $C \times R$ grid.
+  3. Manage heap memory cleanly without memory leaks or dangling pointers.
+
+---
+
+## How to Compile and Run
+
+To compile and run any problem set using `g++`:
+
+```bash
+g++ -o output_file filename.cpp
+./output_file
+```
