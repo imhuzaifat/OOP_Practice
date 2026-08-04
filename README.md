@@ -21,6 +21,16 @@ A collection of C++ programming problems and implementations focused on core dat
 
 ---
 
+### Topic 3: Classes, Objects, & Access Modifiers
+* **File:** `topic3_classes.cpp`
+* **Requirements:**
+  1. Define a `Student` class with `private` attributes (`name`, `rollNumber`, `gpa`).
+  2. Implement getter and setter methods with data validation (restricting `gpa` between `0.0` and `4.0`).
+  3. Include utility methods `displayInfo()` and `isHonorStudent()`.
+  4. Instantiate multiple objects in `main()` to demonstrate encapsulation and accessor safety.
+
+---
+
 ## How to Compile and Run
 
 To compile and run any problem set using `g++`:
