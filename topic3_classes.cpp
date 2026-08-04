@@ -114,7 +114,5 @@ void Student::displayInfo() const
 
 bool Student::isHonorStudent() const
 {
-    if(gpa >= 3.5)
-        return true;
-    return false;
+    return gpa >= 3.5;
 }
