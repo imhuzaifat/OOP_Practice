@@ -18,7 +18,7 @@
 using namespace std;
 
 int** createMatrix(int rows, int cols);
-void freeMatrix(int** matrix, int rows);
+void freeMatrix(int**& matrix, int rows);
 int** transposeMatrix(int** matrix, int rows, int cols);
 void printMatrix(int** matrix, int rows, int cols);
 
@@ -80,12 +80,13 @@ int** transposeMatrix(int** matrix, int rows, int cols)
     return transposedMatrix;
 }
 
-void freeMatrix(int** matrix, int rows)
+void freeMatrix(int**& matrix, int rows)
 {
     for (int i=0; i<rows; i++)
         delete[] matrix[i];
     
     delete[] matrix;
+    matrix = nullptr;
 }
 
 void printMatrix(int** matrix, int rows, int cols)
