@@ -31,6 +31,16 @@ A collection of C++ programming problems and implementations focused on core dat
 
 ---
 
+### Topic 4: Constructors & Destructors
+* **File:** `topic4_constructors.cpp`
+* **Requirements:**
+  1. Implement a `Matrix` class managing 2D dynamic memory following the RAII pattern.
+  2. Use a Parameterized Constructor with Member Initializer Lists for memory allocation.
+  3. Implement a Destructor (`~Matrix()`) to eliminate memory leaks upon object destruction.
+  4. Provide boundary-checked methods `setElement` and `getElement`.
+
+---
+
 ## How to Compile and Run
 
 To compile and run any problem set using `g++`:
