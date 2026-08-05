@@ -56,6 +56,16 @@ A collection of C++ programming problems and implementations focused on core dat
   1. Overload binary `operator+` for matrix addition.
   2. Overload comparison `operator==` for deep matrix equality checks.
   3. Implement a `friend` stream insertion `operator<<` for clean output syntax (`cout << mat`).
+
+---
+
+### Topic 7: Inheritance & Protected Access
+* **File:** `topic7_inheritance.cpp`
+* **Requirements:**
+  1. Learn the `protected` access specifier for derived class accessibility.
+  2. Implement a `SquareMatrix` child class inheriting from base `Matrix`.
+  3. Chain constructors using member initializer lists (`SquareMatrix(int size) : Matrix(size, size)`).
+  4. Implement domain-specific methods `makeIdentity()` and `getTrace()`.
   
 ---
 
