@@ -50,6 +50,15 @@ A collection of C++ programming problems and implementations focused on core dat
 
 ---
 
+### Topic 6: Operator Overloading
+* **File:** `topic6_operator_overloading.cpp`
+* **Requirements:**
+  1. Overload binary `operator+` for matrix addition.
+  2. Overload comparison `operator==` for deep matrix equality checks.
+  3. Implement a `friend` stream insertion `operator<<` for clean output syntax (`cout << mat`).
+  
+---
+
 ## How to Compile and Run
 
 To compile and run any problem set using `g++`:
