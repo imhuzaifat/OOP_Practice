@@ -18,8 +18,7 @@ using namespace std;
 class Matrix
 {
 private:
-    int rows;
-    int cols;
+    int rows, cols;
     int** data;
 public:
     Matrix(int r, int c) : rows(r), cols(c)
