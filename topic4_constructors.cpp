@@ -48,7 +48,7 @@ public:
     }
     void setElement(int r, int c, int value)
     {
-        if (r>=rows || c>=cols)
+        if (r < 0 || r >= rows || c < 0 || c >= cols)
             cout << r << "x" << c << " is out of bound!" << endl;
         else
             data[r][c] = value;
