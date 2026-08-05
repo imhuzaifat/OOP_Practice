@@ -41,6 +41,15 @@ A collection of C++ programming problems and implementations focused on core dat
 
 ---
 
+### Topic 5: Copy Constructors & Deep Copying
+* **File:** `topic5_copy_constructor.cpp`
+* **Requirements:**
+  1. Understand Shallow vs. Deep copying and the Rule of Three.
+  2. Implement a custom Copy Constructor `Matrix(const Matrix& other)` using pass-by-const-reference.
+  3. Ensure independent heap memory allocations to prevent double-free crashes and unintended side effects.
+
+---
+
 ## How to Compile and Run
 
 To compile and run any problem set using `g++`:
