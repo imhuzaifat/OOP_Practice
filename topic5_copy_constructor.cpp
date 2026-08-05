@@ -49,19 +49,32 @@ public:
             }
         }
     }
-    operator=(const Matrix& other)
+    Matrix& operator=(const Matrix& other)
     {
+        // 1. Guard against self-assignment (e.g., mat1 = mat1)
+        if (this == &other)
+            return *this;
+
+        // 2. Clean up existing memory in 'this' object
+        for (int i = 0; i < rows; i++)
+            delete[] data[i];
+        delete[] data;
+
+        // 3. Perform Deep Copy
         rows = other.rows;
         cols = other.cols;
         data = new int*[rows];
-        for (int i=0; i<rows; i++)
+        for (int i = 0; i < rows; i++)
         {
             data[i] = new int[cols];
-            for (int j=0; j<cols; j++)
+            for (int j = 0; j < cols; j++)
             {
                 data[i][j] = other.data[i][j];
             }
         }
+
+        // 4. Return *this to enable chained assignments (e.g., a = b = c)
+        return *this;
     }
     ~Matrix()
     {
