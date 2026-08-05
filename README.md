@@ -66,6 +66,16 @@ A collection of C++ programming problems and implementations focused on core dat
   2. Implement a `SquareMatrix` child class inheriting from base `Matrix`.
   3. Chain constructors using member initializer lists (`SquareMatrix(int size) : Matrix(size, size)`).
   4. Implement domain-specific methods `makeIdentity()` and `getTrace()`.
+
+---
+
+### Topic 8: Polymorphism & Virtual Functions
+* **File:** `topic8_polymorphism.cpp`
+* **Requirements:**
+  1. Use `virtual` functions to achieve runtime dynamic binding.
+  2. Implement virtual destructors to prevent memory leaks when deleting derived objects through base pointers.
+  3. Apply the `override` keyword (C++11) for explicit function overriding in derived classes.
+  4. Demonstrate heterogeneous collections using base class pointers (`Matrix*[]`).
   
 ---
 
