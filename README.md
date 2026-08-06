@@ -6,6 +6,8 @@ A collection of C++ programming problems and implementations focused on core dat
 
 ## Problem Sets
 
+---
+
 ### Topic 1: Pointers & Reference Variables
 * **File:** `topic1_pointers.cpp`
 * **Description:** Implementation of custom array manipulation returning a reference to modify the maximum element directly in dynamic memory.
