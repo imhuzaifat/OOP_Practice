@@ -118,6 +118,15 @@ A collection of C++ programming exercises and implementations focused on **core 
 
 ---
 
+### Topic 10: Templates & Generic Programming
+* **File:** [`topic10_templates.cpp`](topic10_templates.cpp)
+* **Requirements:**
+  1. Parameterize class structures using `template <typename T>`.
+  2. Implement generic memory allocation for custom types (`T** data`).
+  3. Instantiate multiple explicit concrete types (`Matrix<int>`, `Matrix<double>`) from a single template blueprint.
+
+---
+
 ## How to Compile and Run
 
 To compile and run any topic using `g++`:
