@@ -109,6 +109,15 @@ A collection of C++ programming exercises and implementations focused on **core 
 
 ---
 
+### Topic 9: Abstract Classes & Pure Virtual Functions
+* **File:** [`topic9_abstract_classes.cpp`](topic9_abstract_classes.cpp)
+* **Requirements:**
+  1. Define pure virtual functions using `= 0` syntax to form abstract interfaces.
+  2. Implement interface contracts in derived concrete classes.
+  3. Understand compile-time instantiation restrictions on abstract base classes.
+
+---
+
 ## How to Compile and Run
 
 To compile and run any topic using `g++`:
