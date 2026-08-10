@@ -55,6 +55,8 @@ public:
     delete[] data;
     data = nullptr;
     }
+
+    // That's What makes it Abstract.
     virtual void print() const = 0;
     virtual int getElement(int r, int c) const = 0;
 };
