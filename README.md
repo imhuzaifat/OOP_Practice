@@ -21,7 +21,7 @@ A collection of C++ programming exercises and implementations focused on **core 
 
 ### Topic 1: Pointers & Reference Variables
 
-* **File:** [`topic1_pointers.cpp`](topic1_pointers.cpp)
+* **File:** [`topic001_pointers.cpp`](topic001_pointers.cpp)
 * **Requirements:**
 
   1. Implement custom array manipulation using a reference to modify the maximum element directly in dynamic memory.
@@ -30,7 +30,7 @@ A collection of C++ programming exercises and implementations focused on **core 
 
 ### Topic 2: Dynamic Memory Management
 
-* **File:** [`topic2_dynamic_memory.cpp`](topic2_dynamic_memory.cpp)
+* **File:** [`topic002_dynamic_memory.cpp`](topic002_dynamic_memory.cpp)
 * **Requirements:**
 
   1. Write helper functions to allocate (`createMatrix`) and deallocate (`freeMatrix`) a 2D dynamic array.
@@ -41,7 +41,7 @@ A collection of C++ programming exercises and implementations focused on **core 
 
 ### Topic 3: Classes, Objects, & Access Modifiers
 
-* **File:** [`topic3_classes.cpp`](topic3_classes.cpp)
+* **File:** [`topic003_classes.cpp`](topic003_classes.cpp)
 * **Requirements:**
 
   1. Define a `Student` class with `private` attributes (`name`, `rollNumber`, `gpa`).
@@ -53,7 +53,7 @@ A collection of C++ programming exercises and implementations focused on **core 
 
 ### Topic 4: Constructors & Destructors
 
-* **File:** [`topic4_constructors.cpp`](topic4_constructors.cpp)
+* **File:** [`topic004_constructors.cpp`](topic004_constructors.cpp)
 * **Requirements:**
 
   1. Implement a `Matrix` class managing 2D dynamic memory following the RAII pattern.
@@ -65,7 +65,7 @@ A collection of C++ programming exercises and implementations focused on **core 
 
 ### Topic 5: Copy Constructors & Deep Copying
 
-* **File:** [`topic5_copy_constructor.cpp`](topic5_copy_constructor.cpp)
+* **File:** [`topic005_copy_constructor.cpp`](topic005_copy_constructor.cpp)
 * **Requirements:**
 
   1. Understand shallow vs. deep copying and the Rule of Three.
@@ -76,7 +76,7 @@ A collection of C++ programming exercises and implementations focused on **core 
 
 ### Topic 6: Operator Overloading
 
-* **File:** [`topic6_operator_overloading.cpp`](topic6_operator_overloading.cpp)
+* **File:** [`topic006_operator_overloading.cpp`](topic006_operator_overloading.cpp)
 * **Requirements:**
 
   1. Overload binary `operator+` for matrix addition.
@@ -87,7 +87,7 @@ A collection of C++ programming exercises and implementations focused on **core 
 
 ### Topic 7: Inheritance & Protected Access
 
-* **File:** [`topic7_inheritance.cpp`](topic7_inheritance.cpp)
+* **File:** [`topic007_inheritance.cpp`](topic007_inheritance.cpp)
 * **Requirements:**
 
   1. Learn the `protected` access specifier for derived class accessibility.
@@ -99,7 +99,7 @@ A collection of C++ programming exercises and implementations focused on **core 
 
 ### Topic 8: Polymorphism & Virtual Functions
 
-* **File:** [`topic8_polymorphism.cpp`](topic8_polymorphism.cpp)
+* **File:** [`topic008_polymorphism.cpp`](topic008_polymorphism.cpp)
 * **Requirements:**
 
   1. Use `virtual` functions to achieve runtime dynamic binding.
@@ -110,7 +110,7 @@ A collection of C++ programming exercises and implementations focused on **core 
 ---
 
 ### Topic 9: Abstract Classes & Pure Virtual Functions
-* **File:** [`topic9_abstract_classes.cpp`](topic9_abstract_classes.cpp)
+* **File:** [`topic009_abstract_classes.cpp`](topic009_abstract_classes.cpp)
 * **Requirements:**
   1. Define pure virtual functions using `= 0` syntax to form abstract interfaces.
   2. Implement interface contracts in derived concrete classes.
@@ -119,7 +119,7 @@ A collection of C++ programming exercises and implementations focused on **core 
 ---
 
 ### Topic 10: Templates & Generic Programming
-* **File:** [`topic10_templates.cpp`](topic10_templates.cpp)
+* **File:** [`topic010_templates.cpp`](topic010_templates.cpp)
 * **Requirements:**
   1. Parameterize class structures using `template <typename T>`.
   2. Implement generic memory allocation for custom types (`T** data`).
