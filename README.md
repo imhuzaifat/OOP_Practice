@@ -149,6 +149,15 @@ A collection of C++ programming exercises and implementations focused on **core 
 
 ---
 
+### Topic 13: Standard Template Library (STL) Fundamentals
+* **File:** [`topic013_stl.cpp`](topic013_stl.cpp)
+* **Requirements:**
+  1. Utilize sequence containers (`std::vector`) and utility pairs (`std::pair`).
+  2. Implement range-based loops and iterators for container traversal.
+  3. Apply generic algorithms (`std::sort`) for array manipulation.
+
+---
+
 ## How to Compile and Run
 
 To compile and run single-file programs using `g++`:
