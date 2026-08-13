@@ -14,6 +14,10 @@ A collection of C++ programming exercises and implementations focused on **core 
 * Operator Overloading
 * Inheritance
 * Polymorphism & Virtual Functions
+* Abstract Classes & Pure Virtual Functions
+* Templates & Generic Programming
+* Exception Handling & Custom Exceptions
+* Multi-File Project Structuring & Header Guards
 
 ---
 
@@ -127,11 +131,28 @@ A collection of C++ programming exercises and implementations focused on **core 
 
 ---
 
+### Topic 11: Exception Handling & Custom Exceptions
+* **File:** [`topic011_exceptions.cpp`](topic011_exceptions.cpp)
+* **Requirements:**
+  1. Create custom exception classes by deriving from `std::exception`.
+  2. Implement defensive programming using `try`, `throw`, and `catch` blocks.
+  3. Override `const char* what() const noexcept` for expressive runtime diagnostics.
+
+---
+
+### Topic 12: Multi-File Project Structuring & Header Files
+* **Files:** [`Matrix.h`](Matrix.h), [`Matrix.cpp`](Matrix.cpp), [`topic012_multifile.cpp`](topic012_multifile.cpp)
+* **Requirements:**
+  1. Separate class interface (`Matrix.h`) from implementation (`Matrix.cpp`).
+  2. Protect header declarations against redefinition using preprocessor include guards (`#ifndef` / `#define` / `#endif`).
+  3. Link multiple translation units during compilation to generate an executable binary.
+
+---
+
 ## How to Compile and Run
 
-To compile and run any topic using `g++`:
+To compile and run single-file programs using `g++`:
 
 ```bash
-g++ filename.cpp
-.\a.exe
-```
+g++ filename.cpp -o app
+.\app.exe
